@@ -122,8 +122,8 @@ a {
 
 .hero-banner {
   width: min(100%, 1000px);
-  aspect-ratio: 16 / 8;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: 20px;
   margin: 0 auto;
   box-shadow: var(--shadow);
